@@ -31,8 +31,20 @@ students = {"name": "Saim", "roll_no": "2521306"}
 # students.update(new_info)
 
 # students.clear()
-students_copy = students.copy()
-students_copy["name"] = "usman"
-print(students_copy)
-print(students)
+# students_copy = students.copy()
+# students_copy["name"] = "usman"
+# print(students_copy)
+# print(students)
+
+# squared_num = {x: x**2 for x in range(10)}
+
+# print(squared_num)
+
 # students_record = {"name", {}, {}, {}}
+
+# keys = ["name", "roll_no", "semester"]
+
+# default_value = "Saim"
+# new_dic = dict.fromkeys(keys, default_value)
+
+# print(new_dic)
