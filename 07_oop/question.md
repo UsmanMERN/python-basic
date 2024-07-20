@@ -1,81 +1,87 @@
-# Learn all about functions by answering the questions below.
+# learn about Object Oriented Programming by answering these questions
 
 
 <details>
 <summary>
-1. Basic Function Syntax
+1. Basic Class and Object
 </summary>
-Problem: Write a function to calculate and return the square of a number.
+Problem: Create a Car class with attributes like brand and model. Then create an instance of this class.
 </details>
 
 
 <details>
 <summary>
-2. Function with Multiple Parameters
+2. Class Method and Self
 </summary>
-Problem: Create a function that takes two numbers as parameters and returns their sum.
+Problem: Add a method to the Car class that displays the full name of the car (brand and model).
 </details>
 
 
 <details>
 <summary>
-3. Polymorphism in Functions
+3. Inheritance
 </summary>
-Problem: Write a function multiply that multiplies two numbers, but can also accept and multiply strings.
+Problem: Create an ElectricCar class that inherits from the Car class and has an additional attribute battery_size.
 </details>
+
 
 
 <details>
 <summary>
-4. Function Returning Multiple Values
+4. Encapsulation
 </summary>
-Problem: Create a function that returns both the area and circumference of a circle given its radius.
+Problem: Modify the Car class to encapsulate the brand attribute, making it private, and provide a getter method for it.
 </details>
+
+<details>
+<summary>
+5. Polymorphism
+</summary>
+Problem: Demonstrate polymorphism by defining a method fuel_type in both Car and ElectricCar classes, but with different behaviors.
+</details>
+
 
 
 <details>
 <summary>
-5. Default Parameter Value
+6. Class Variables
 </summary>
-Problem: Write a function that greets a user. If no name is provided, it should greet with a default name.
+Problem: Add a class variable to Car that keeps track of the number of cars created.
 </details>
+
+
 
 
 <details>
 <summary>
-6. Lambda Function
+7. Static Method
 </summary>
-Problem: Create a lambda function to compute the cube of a number.
+Problem: Add a static method to the Car class that returns a general description of a car.
 </details>
+
 
 
 <details>
 <summary>
-7. Function with *args
+8. Property Decorators
 </summary>
-Problem: Write a function that takes variable number of arguments and returns their sum.
+Problem: Use a property decorator in the Car class to make the model attribute read-only.
 </details>
+
 
 
 <details>
 <summary>
-8. Function with **kwargs
+9. Class Inheritance and isinstance() Function
 </summary>
-Problem: Create a function that accepts any number of keyword arguments and prints them in the format key: value.
+Problem: Demonstrate the use of isinstance() to check if my_tesla is an instance of Car and ElectricCar.
 </details>
+
 
 
 <details>
 <summary>
-9. Generator Function with yield
+10. Multiple Inheritance
 </summary>
-Problem: Write a generator function that yields even numbers up to a specified limit.
-</details>
-
-
-<details>
-<summary>
-10. Recursive Function
-</summary>
-Problem: Create a recursive function to calculate the factorial of a number.
+Problem: Create two classes Battery and Engine, and let the ElectricCar class inherit from both, demonstrating multiple inheritance.
 </details>
