@@ -221,7 +221,7 @@ This folder contains scripts that demonstrate how to interact with SQLite databa
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/python-learning-journey.git
+   git clone https://github.com/UsmanMERN/python-basic
    ```
 2. Navigate to the desired folder.
 3. Run the Python script using:
